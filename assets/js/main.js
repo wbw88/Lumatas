@@ -1,9 +1,3 @@
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	skel.breakpoints({
@@ -112,7 +106,6 @@
 
 										// No locked links? Deactivate all links and activate this section's one.
 											if ($nav_a.filter('.active-locked').length == 0) {
-
 												$nav_a.removeClass('active');
 												$this.addClass('active');
 
