@@ -12,7 +12,6 @@ $(document).ready(function() {
 	if (name == '' || email == '') {
 	alert("Please Fill Required Fields");
 	} else {
-	}
 	// Returns successful data submission message when the entered information is stored in database.
 	$.ajax({
 		type: 'POST',
@@ -21,8 +20,10 @@ $(document).ready(function() {
 		success: function() {
 			alert("Success!")
 		}
-	})
+	  })
+	 }
 	
 	
-	});
+	
+   });
 });
