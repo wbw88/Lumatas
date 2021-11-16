@@ -14,8 +14,8 @@ $(document).ready(function() {
 	} else {
 	// Returns successful data submission message when the entered information is stored in database.
 	$.ajax({
-		type: 'POST',
-		url: 'mail.php',
+		type: "POST",
+		url: "mail.php",
 		data: varData,
 		success: function() {
 			alert("Success!")
